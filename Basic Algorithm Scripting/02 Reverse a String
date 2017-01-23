@@ -9,6 +9,7 @@ Global String Object String.split() Array.reverse() Array.join()
 Coded by Paul Dawkins
 dawkins.paul@hotmail.com
 https://www.freecodecamp.com/pd19
+
 */
 
 function reverseString(str) {
