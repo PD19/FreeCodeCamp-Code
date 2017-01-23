@@ -7,7 +7,7 @@ Here are some helpful links:
 Global String Object String.split() Array.reverse() Array.join()
 
 Coded by Paul Dawkins
-dawkins.paul@hotmail.com
+https://twitter.com/Paul__Dawkins
 https://www.freecodecamp.com/pd19
 
 */
