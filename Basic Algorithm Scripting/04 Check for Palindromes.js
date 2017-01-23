@@ -25,18 +25,24 @@ function palindrome(str) {
   return true;
 }
 
-funtion palindrome(str) {
-  //This ensures str removes all letter characters and converts everything into lower case
-  str = str.replace(/[^a-zA-Z]/g, "").toLowerCase();
-  //This creates a reverse string variable, splits the input, reverses it, then joins it together
-  var revStr = str.split('').reverse().join('');
-  //if str is identical to revStr, return true. Otherwise, its not a palindrome, so return false
-  if(str === revStr){
+function palindrome(str) {
+  // make all of the letters lowercase and remove non-alphanumeric characters
+  str = str.toLowerCase();
+  str = str.replace(/[^a-z|1-9]/g, "");
+  
+  // if the length of the string is 0, then it is a palindrome
+  if (str.length === 0) {
     return true;
-   } else {
+  }
+  // if the first letter and the last letter of the string do not equal eachother, then it is not a palindrome
+  if (str[0] !== str[str.length-1]) {
     return false;
-   }
+  } else {
+    //Else, run the function without the first and last characters
+    return palindrome(str.slice(1,str.length - 1));
+  }
 }
+
 
 palindrome("eye");
 palindrome("racecar");
