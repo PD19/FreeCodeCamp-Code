@@ -10,7 +10,7 @@ Here are some helpful links:
 [Arithmetic Operators] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators)
 
 Coded by Paul Dawkins
-dawkins.paul@hotmail.com
+https://twitter.com/Paul__Dawkins
 https://www.freecodecamp.com/pd19
 */
 
