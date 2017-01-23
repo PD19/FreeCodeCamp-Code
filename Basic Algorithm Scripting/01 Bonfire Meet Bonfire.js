@@ -13,7 +13,7 @@ Bonfire.
 Make this function return true no matter what.
 
 Coded by Paul Dawkins
-dawkins.paul@hotmail.com
+https://twitter.com/Paul__Dawkins
 https://www.freecodecamp.com/pd19
 */
 
