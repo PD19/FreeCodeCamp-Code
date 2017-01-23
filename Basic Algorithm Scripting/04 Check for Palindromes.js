@@ -15,7 +15,7 @@ Here are some helpful links:
 [String.prototype.toLowerCase()] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase)
 
 Coded by Paul Dawkins
-dawkins.paul@hotmail.com
+https://twitter.com/Paul__Dawkins
 https://www.freecodecamp.com/pd19
 */
 
