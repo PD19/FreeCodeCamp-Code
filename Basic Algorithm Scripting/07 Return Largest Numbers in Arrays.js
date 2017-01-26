@@ -19,19 +19,13 @@ largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 85
 
 //Solution
 function largestOfFour(arr) {
-  var number = 0;
-  var bigArray = [];
-  
-  for(var i = 0; i < arr.length; i++) {       
-    for(var x = 0; x < arr[i].length; x++) {
-      if (number < arr[i][x]) {
-        number = arr[i][x];
-      }
-      bigArray[i] = number;
-    }
-  }
-  
-  return bigArray;
+  //Create an empty array
+  var largest = [];
+  arr.forEach(function(array) {
+    // Sort each individual array in descending order, then return the 0 index (highest element)
+    largest.push(array.sort(function(a, b) {return b - a;})[0]);
+  });
+  return largest;
 }
 
 largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
